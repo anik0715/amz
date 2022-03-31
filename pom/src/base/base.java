@@ -22,7 +22,7 @@ public static Properties prop;
 public   base() throws IOException  {
 	
 	prop= new Properties();
-	FileInputStream ip = new FileInputStream("C:\\Users\\anike\\eclipse-workspace\\pom\\src\\config\\confg.properties");
+	FileInputStream ip = new FileInputStream("C:\\Users\\anike\\git\\amz\\pom\\src\\config\\confg.properties");
 	prop.load(ip);
 	}
 
